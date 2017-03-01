@@ -11,7 +11,7 @@ This script will:
  	<li>Decompress downloaded image</li> 	
  	<li>Generate squashfs Berryboot image file</li>
 </ul>
-NOTE: This script will need squashfs-tools and bsdtar, make sure your OS have those packages installed before execute the script.
+NOTE: This script will need squashfs-tools and bsdtar, make sure your OS have those packages installed before execute the script.<a target="_blank" href="http://www.alexgoldcheidt.com/wp-content/uploads/sites/5/2017/03/archlinux-berryboot-demo.png"> Quick Screenshot</a>
 
 For already converted OS images, go to: <a target="_blank" href="http://berryboot.alexgoldcheidt.com/images/">http://berryboot.alexgoldcheidt.com/images/</a>
 

@@ -1,7 +1,9 @@
 # Converting ArchLinux ARM OS for Berryboot
 This is a simple bash script to download and convert ArchLinux OS image for Berryboot.
 <h2>Usage</h2>
-Simply run the script as root and select your device.
+First, allow to execute the script by change the permission:
+<pre>chmod +x archlinux_berryboot.sh</pre>
+Then, simply run the script as root and select your device.
 <pre>sudo ./archlinux_berryboot.sh</pre>
 This script will:
 <ul>

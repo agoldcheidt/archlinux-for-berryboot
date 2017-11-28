@@ -6,7 +6,7 @@
 # https://github.com/agoldcheidt
 
 if [ "$EUID" -ne 0 ]
-then 
+then
     echo 1>&2 "Please run as root"
     exit 1
 fi
@@ -45,7 +45,7 @@ echo ""
 echo "#### CONVERTING OS IMAGE TO BERRYBOOT ####"
 echo ""
 			sudo mksquashfs ArchLinux1/ $NAME1 -comp lzo -e lib/modules var/lib/pacman/local
-			sudo rm -f ArchLinuxARM-rpi-latest.tar.gz		
+			sudo rm -f ArchLinuxARM-rpi-latest.tar.gz
 			sudo rm -rf ArchLinux1
 echo ""
 echo "#### IMAGE READY! ####"
@@ -66,7 +66,7 @@ echo ""
 echo "#### CONVERTING OS IMAGE TO BERRYBOOT ####"
 echo ""
 			sudo mksquashfs ArchLinux2/ $NAME2 -comp lzo -e lib/modules var/lib/pacman/local
-			sudo rm -f ArchLinuxARM-rpi-2-latest.tar.gz		
+			sudo rm -f ArchLinuxARM-rpi-2-latest.tar.gz
 			sudo rm -rf ArchLinux2
 echo ""
 echo "#### IMAGE READY! ####"
@@ -87,7 +87,7 @@ echo ""
 echo "#### CONVERTING OS IMAGE TO BERRYBOOT ####"
 echo ""
 			sudo mksquashfs ArchLinux3/ $NAME3 -comp lzo -e lib/modules var/lib/pacman/local
-			sudo rm -f ArchLinuxARM-rpi-3-latest.tar.gz		
+			sudo rm -f ArchLinuxARM-rpi-3-latest.tar.gz
 			sudo rm -rf ArchLinux3
 echo ""
 echo "#### IMAGE READY! ####"

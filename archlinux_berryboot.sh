@@ -44,7 +44,7 @@ echo ""
 echo ""
 echo "#### CONVERTING OS IMAGE TO BERRYBOOT ####"
 echo ""
-			sudo mksquashfs ArchLinux1/ $NAME1 -comp lzo -e lib/modules var/cache/apt/archives
+			sudo mksquashfs ArchLinux1/ $NAME1 -comp lzo -e lib/modules var/lib/pacman/local
 			sudo rm -f ArchLinuxARM-rpi-latest.tar.gz		
 			sudo rm -rf ArchLinux1
 echo ""
@@ -65,7 +65,7 @@ echo ""
 echo ""
 echo "#### CONVERTING OS IMAGE TO BERRYBOOT ####"
 echo ""
-			sudo mksquashfs ArchLinux2/ $NAME2 -comp lzo -e lib/modules var/cache/apt/archives
+			sudo mksquashfs ArchLinux2/ $NAME2 -comp lzo -e lib/modules var/lib/pacman/local
 			sudo rm -f ArchLinuxARM-rpi-2-latest.tar.gz		
 			sudo rm -rf ArchLinux2
 echo ""
@@ -86,7 +86,7 @@ echo ""
 echo ""
 echo "#### CONVERTING OS IMAGE TO BERRYBOOT ####"
 echo ""
-			sudo mksquashfs ArchLinux3/ $NAME3 -comp lzo -e lib/modules var/cache/apt/archives
+			sudo mksquashfs ArchLinux3/ $NAME3 -comp lzo -e lib/modules var/lib/pacman/local
 			sudo rm -f ArchLinuxARM-rpi-3-latest.tar.gz		
 			sudo rm -rf ArchLinux3
 echo ""

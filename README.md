@@ -5,6 +5,7 @@ First, install squashfs-tools and bsdtar according to your OS.
 Execute the script on any terminal and follow the instructions:
 <pre>bash <(wget -qO- https://git.io/fhfan)</pre>
 ![ArchLinuxARM2018](https://dl.inwebxdesigns.com/storage/hotlink-ok/archlinux_script_dec_2018.png)
+<hr>
 This script will:
 <ul>
  	<li>Download the latest ArchLinux OS image</li>

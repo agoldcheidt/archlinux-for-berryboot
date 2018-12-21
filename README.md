@@ -8,7 +8,7 @@ Execute the script on any terminal and follow the instructions:
 <hr>
 <strong>This script will:</strong>
 <ul>
- 	<li>Download the latest ArchLinux OS image</li>
+ 	<li>Download the latest ArchLinux ARM OS image</li>
  	<li>Decompress downloaded image</li> 	
  	<li>Generate squashfs Berryboot image file</li>
 </ul>

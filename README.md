@@ -1,12 +1,14 @@
 # Converting ArchLinux ARM OS for Berryboot
 This is a simple bash script to download and convert ArchLinux OS image for Berryboot.
+
 ## Usage
 First, install <strong>squashfs-tools</strong> and <strong>bsdtar</strong> according to your OS.
 Execute the script on any terminal and follow the instructions:
 <pre>bash <(wget -qO- https://git.io/fhfan)</pre>
 ![ArchLinuxARM2018](https://dl.inwebxdesigns.com/storage/hotlink-ok/archlinux_script_dec_2018.png)
 <hr>
-<strong>This script will:</strong>
+
+This script will:
 <ul>
  	<li>Download the latest ArchLinux ARM OS image</li>
  	<li>Decompress downloaded image</li> 	

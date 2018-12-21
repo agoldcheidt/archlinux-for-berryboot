@@ -2,7 +2,7 @@
 
 # ArchLinux ARM OS Image Generator for Berryboot
 # Copyright 2017 Alexander G.
-# http://www.alexgoldcheidt.com
+# https://www.alexgoldcheidt.com
 # https://github.com/agoldcheidt
 
 if [ "$EUID" -ne 0 ]

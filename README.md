@@ -1,27 +1,17 @@
 # Converting ArchLinux ARM OS for Berryboot
 This is a simple bash script to download and convert ArchLinux OS image for Berryboot.
 
-## Usage
-First, install <strong>squashfs-tools</strong> and <strong>bsdtar</strong> according to your OS.
+## Universal Image Generator for Berryboot
+I've updated the script and added it to <a target="_blank" href="https://github.com/agoldcheidt/Universal-Image-Generator-for-Berryboot">my main script</a>. 
 Execute the script on any terminal and follow the instructions:
-<pre>bash <(wget -qO- https://git.io/fhfan)</pre>
-![ArchLinuxARM2018](https://dl.inwebxdesigns.com/storage/hotlink-ok/archlinux_script_dec_2018.png)
-<hr>
+<pre>bash <(wget -qO- https://git.io/fx6ZG)</pre>
 
-This script will:
-<ul>
- 	<li>Download the latest ArchLinux ARM OS image</li>
- 	<li>Decompress downloaded image</li> 	
- 	<li>Generate squashfs Berryboot image file</li>
-</ul>
-<hr>
+### For already converted OS images, go to: <a target="_blank" href="https://berryboot.alexgoldcheidt.com/images/">https://berryboot.alexgoldcheidt.com/images/</a>
 
-### For already converted OS images, go to: <a target="_blank" href="http://berryboot.alexgoldcheidt.com/images/">http://berryboot.alexgoldcheidt.com/images/</a>
+![BerryServer](https://home.alexgoldcheidt.com/upload-arfalyjs/hotlink-ok/logo_berryserver_website_2020_150x150_opt-1615391161-71.png)
 
-![BerryServer](https://dl.inwebxdesigns.com/storage/hotlink-ok/berryserver_logo_server_04_2017.png)
+### Support my project at: <a target="_blank" href="https://www.paypal.me/alexgoldc">https://www.paypal.me/alexgoldc</a>
 
-### Support my project at: <a target="_blank" href="https://www.patreon.com/berryserver">https://www.patreon.com/berryserver</a>
-
-![BerryServer](https://dl.inwebxdesigns.com/storage/hotlink-ok/patreon-berryserver1.png)
+![BerryServer](https://home.alexgoldcheidt.com/upload-arfalyjs/hotlink-ok/website_support_paypal-1560271174-695.png)
 
 &nbsp;

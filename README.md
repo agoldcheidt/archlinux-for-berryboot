@@ -7,11 +7,6 @@ Execute the script on any terminal and follow the instructions:
 <pre>bash <(wget -qO- https://git.io/fx6ZG)</pre>
 
 ### For already converted OS images, go to: <a target="_blank" href="https://berryboot.alexgoldcheidt.com/images/">https://berryboot.alexgoldcheidt.com/images/</a>
-
+### Support my project at: <a target="_blank" href="https://berryboot.alexgoldcheidt.com/go/support-paypal">https://www.paypal.com/paypalme/AlexGoldcheidt</a>
 ![BerryServer](https://home.alexgoldcheidt.com/upload-arfalyjs/hotlink-ok/logo_berryserver_website_2020_150x150_opt-1615391161-71.png)
-
-### Support my project at: <a target="_blank" href="https://www.paypal.me/alexgoldc">https://www.paypal.me/alexgoldc</a>
-
-![BerryServer](https://home.alexgoldcheidt.com/upload-arfalyjs/hotlink-ok/website_support_paypal-1560271174-695.png)
-
 &nbsp;
